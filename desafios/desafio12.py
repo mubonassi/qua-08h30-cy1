@@ -9,7 +9,7 @@ produto3 = input("> Digite o nome do produto (3): ")
 valor3 = float(input("> Digite o valor do produto (3): "))
 
 total = valor1 + valor2 + valor3
-credito = total * 1.5
+credito = total * 1.05
 vista = total * 0.985
 
 print("| Carrinho |")
