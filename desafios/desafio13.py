@@ -1,10 +1,11 @@
 print("| PALAVRA MÁGICA |")
 print("-"*60)
 
-tentativa = input("Digite a sua tentativa: ")
-palavra = "mítico"
+palavra = "palavra"
+tentativa = input("> Digite a tentativa de palavra mágica: ")
 
-if tentativa == palavra:
-    print("Você acertou! Seja bem vindo!")
+if palavra == tentativa:
+    print("VOCÊ ACERTOU!!!!!!!!!!!!!!!!!")
 else:
-    print("NEGADO!")
+    print("VOCÊ ERROU!!!!!!!!!!!!!!!!!!!")
+    print(f"A palavra era {palavra}")
