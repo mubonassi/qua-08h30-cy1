@@ -3,9 +3,9 @@ print("-"*60)
 
 print("| Deve-se escolher: pedra, papel ou tesoura |")
 print(">> Jogador 1")
-jogador1 = input("> Digite seu ataque: ").lower()
+jogador1 = input("> Digite seu ataque: ").lower().strip()
 print(">> Jogador 2")
-jogador2 = input("> Digite seu ataque: ").lower()
+jogador2 = input("> Digite seu ataque: ").lower().strip()
 
 vencedor = 0
 
