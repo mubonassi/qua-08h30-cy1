@@ -3,9 +3,9 @@ print("-"*60)
 
 print("| Escolha entre: Celsius, Fahrenheit e Kelvin")
 
-grauDigitado = input("> Digite o grau que será digitado: ")
+grauDigitado = input("> Digite o grau que será digitado: ").strip().capitalize()
 temperatura = float(input("> Digite o valor da temperatura: "))
-grauConvertido = input("> Digite o grau que será convertido: ")
+grauConvertido = input("> Digite o grau que será convertido: ").strip().capitalize()
 
 temperaturaConvertida = False
 

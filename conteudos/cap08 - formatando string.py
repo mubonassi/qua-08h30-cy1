@@ -5,6 +5,7 @@ print("| Formatando String |")
 
 frase = "      Banana com maçã e Café       "
 
+print(frase)
 print(frase.upper()) #Upper -> Tudo maiusculo
 print(frase.lower()) #Lower -> Tudo minusculo
 print(frase.title()) #Title -> Coloca a primeira letra de palavra maiuscula
